@@ -1,0 +1,300 @@
+Here is a clean, practical, industry-relevant list of Linux command categories and the exact commands that are used daily by DevOps, backend engineers, SREs, cloud engineers, and system admins.
+
+    1. File & Directory Operations
+
+        ls – list
+
+        cd – change directory
+
+        pwd – current path
+
+        mkdir – create directory
+
+        rmdir – remove empty directory
+
+        rm – delete files/folders
+
+        cp – copy
+
+        mv – move/rename
+
+        touch – create empty file
+
+        cat – print file
+
+        nl – show file with line numbers
+
+        less / more – view file paginated
+
+        head – first N lines
+
+        tail – last N lines
+
+        stat – file metadata
+
+
+
+================================================================================================================================================================
+
+    2. File Search & Text Search
+        
+        find – search files by name/size/etc.
+
+        locate – fast file lookup (DB-based)
+
+        grep – search text in files
+
+        awk – extract fields, process text
+
+        sed – modify text
+
+
+================================================================================================================================================================
+
+    3. File Permissions & Ownership
+
+        chmod – change permissions
+
+        chown – change owner/group
+
+        chgrp – change group
+
+        umask – default permission mask
+
+
+================================================================================================================================================================
+
+    4. Archiving & Compression
+
+        tar – create/extract archives
+
+        zip / unzip
+
+        gzip / gunzip
+
+
+
+================================================================================================================================================================
+
+    5. Networking
+
+        These are used heavily in cloud & server troubleshooting.
+
+            ifconfig / ip addr – network interfaces
+
+            ip route – routing table
+
+            ping – connectivity test
+
+            curl – API test / download
+
+            wget – download
+
+            netstat / ss – ports, sockets
+
+            nslookup / dig – DNS
+
+            telnet – port reachability
+
+            traceroute – path trace
+
+
+================================================================================================================================================================
+
+    6. System Monitoring
+
+        Used daily by SRE/DevOps.
+
+            top – running processes
+
+            htop – improved top
+
+            ps – process list
+
+            free -m – memory
+
+            df -h – disk usage
+
+            du -sh – folder size
+
+            uptime – load average
+
+            iostat – IO stats
+
+            vmstat – virtual memory
+
+            sar – historical performance
+
+
+================================================================================================================================================================
+
+    7. Process & Service Management
+
+        systemctl – start/stop/restart/status
+
+        service – older service manager
+
+        kill – kill process
+
+        killall – kill by name
+
+        nice / renice – process priority
+
+        nohup – run in background
+
+
+================================================================================================================================================================
+
+    8. User & Group Management
+
+        useradd / userdel
+
+        passwd – set password
+
+        groupadd / groupdel
+
+        id – show user info
+
+        whoami – current user
+
+        su – switch user
+
+        sudo – run as root
+
+
+================================================================================================================================================================
+
+    9. Package Management
+
+        Debian/Ubuntu
+
+            apt install
+
+            apt update
+
+            apt upgrade
+
+        CentOS/RHEL/Amazon Linux
+
+            yum install
+
+            yum update
+
+        Dnf (newer RHEL-based)
+
+            dnf install
+
+
+================================================================================================================================================================
+
+    10. Disk & Filesystem
+
+        lsblk – list disks
+
+        blkid – disk UUID
+
+        fdisk / parted – partition
+
+        mount / umount
+
+        mkfs – create filesystem
+
+
+================================================================================================================================================================
+
+    11. Logs
+
+        journalctl – systemd logs
+
+        tail -f – live logs
+
+        less /var/log/messages
+
+        less /var/log/syslog
+
+        dmesg – kernel logs
+
+
+================================================================================================================================================================
+
+    12. SSH & File Transfer
+
+        ssh – connect remote
+
+        scp – copy files over SSH
+
+        sftp – file transfer
+
+        ssh-keygen – key pair
+
+        ssh-copy-id – push key
+
+
+================================================================================================================================================================
+
+    13. Disk & System Info
+
+        uname -a – kernel info
+
+        hostname – system name
+
+        lsb_release -a – OS info
+
+        dmidecode – hardware info
+
+
+================================================================================================================================================================
+
+    14. Scheduling & Automation
+
+        crontab -e – cron jobs
+
+        at – one-time jobs
+
+        systemd timers – alternative to cron
+
+
+================================================================================================================================================================
+
+    15. Git (always used with Linux servers)
+
+        git clone
+
+        git pull
+
+        git push
+
+        git checkout
+
+        git branch
+
+        git log
+
+        git status
+
+
+================================================================================================================================================================
+
+    16. Firewall
+
+        ufw (Ubuntu firewall)
+
+        firewall-cmd (RHEL)
+
+        iptables (legacy)
+
+
+================================================================================================================================================================
+
+    17. Container Basics
+        Common in DevOps.
+
+        docker ps
+
+        docker images
+
+        docker logs
+
+        docker run
+
+        docker exec -it

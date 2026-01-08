@@ -1,0 +1,149 @@
+
+Grafana & Prometheus Roadmap
+    Beginner → Senior → Expert
+
+    🟢 Beginner (Foundations)
+    
+    Observability Basics
+        Metrics vs logs vs traces
+        Pull vs push model
+        Time-series data concepts (labels, samples, cardinality)
+
+
+    Prometheus – Core
+        Architecture: server, targets, exporters
+        Installing Prometheus (binary, Docker)
+        prometheus.yml basics
+        Scraping targets
+        Exporters: node_exporter, app exporters
+        Data model: metric types (counter, gauge, histogram, summary)
+
+
+    PromQL – Basics
+        Simple selectors
+        Rate vs increase
+        Basic aggregations: sum, avg, max
+        Label filtering
+
+
+    Grafana – Core
+        Install Grafana
+        Add Prometheus datasource
+        Dashboards & panels
+        Basic visualizations
+        Variables (simple)
+        Alerts (legacy / basic)
+
+
+================================================================================================================================================================
+
+
+    🟡 Senior (Production & Scale)
+
+    Prometheus – Advanced
+
+        Service discovery (Kubernetes, EC2, Consul)
+        Relabeling (target & metric relabeling)
+        Recording rules
+        Alerting rules
+        Alertmanager:
+            Routes, receivers
+            Grouping, silencing
+        Remote storage (Thanos / Cortex / Mimir – concepts)
+        Federation
+        HA Prometheus setup
+
+
+    PromQL – Advanced
+        Vector matching (on, ignoring, group_left)
+        Histograms & quantiles
+        SLO/SLA queries
+        Avoiding cardinality explosions
+        Query performance tuning
+
+    
+    Grafana – Advanced
+        Advanced variables (chained, query-based)
+        Reusable dashboards
+        Dashboard provisioning (YAML)
+        Alerting (Unified Alerting)
+        Annotations
+        Permissions & folders
+        Data links
+
+
+    Kubernetes Monitoring
+        kube-prometheus-stack
+        Monitoring pods, nodes, services
+        Custom application metrics
+        Resource metrics vs app metrics
+
+
+    Best Practices
+        Metric naming conventions
+        Label strategy
+        Alert fatigue reduction
+        Red/Golden signals
+        Dashboards vs alerts separation
+
+
+
+================================================================================================================================================================
+
+
+    🔴 Expert (Architecture & Optimization)
+
+    Large-Scale Observability
+        Thanos / Mimir deep dive
+        Long-term storage architecture
+        Global view & multi-cluster monitoring
+        Cost optimization strategies
+
+
+    Reliability Engineering
+        SLO-based alerting
+        Error budgets
+        Burn rate alerts
+        Blackbox monitoring
+
+
+    Performance & Tuning
+        Prometheus TSDB internals
+        WAL, retention, compaction
+        Query optimization at scale
+        Cardinality control techniques
+
+
+    Security & Governance
+        AuthN/AuthZ for Grafana
+        TLS for Prometheus endpoints
+        Multi-tenant monitoring
+        Audit & compliance considerations
+
+
+    Advanced Grafana
+        Custom panels & plugins
+        JSON dashboard modeling
+        Embedding Grafana
+        Grafana OnCall & Incident workflows
+
+
+    Automation & IaC
+        Monitoring as code
+        Terraform for Grafana & Prometheus
+        GitOps (ArgoCD / Flux)
+        CI validation of alerts & dashboards
+
+
+    Beyond Metrics
+        Correlating metrics with logs & traces
+        Full observability platforms
+        Designing org-wide observability standards
+
+
+================================================================================================================================================================
+
+    🎯 Outcome by Level
+        Beginner: Can monitor systems and build dashboards
+        Senior: Can run Prometheus & Grafana in production
+        Expert: Can design scalable, cost-efficient observability platforms

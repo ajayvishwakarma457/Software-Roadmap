@@ -1,0 +1,166 @@
+
+Amazon Web Services Roadmap (Beginner → Senior → Expert)
+
+    🟢 Beginner (Foundations)
+        Goal: Understand cloud + basic AWS usage
+
+    Cloud Basics
+        What is cloud computing (IaaS, PaaS, SaaS)
+        Regions, Availability Zones, Edge locations
+        Shared Responsibility Model
+
+    
+    Core Services
+        Compute: EC2, Lambda (intro)
+        Storage: S3, EBS
+        Networking: VPC (basic), Security Groups
+        Database: RDS (basic)
+        IAM: Users, Roles, Policies
+
+
+    Hands-on
+        Launch EC2
+        Host static website on S3
+        Create IAM user + role
+        Simple RDS connection
+
+
+    Concepts
+        Pricing basics
+        Free Tier
+        AWS CLI (basic)
+    
+    📌 Target cert: Cloud Practitioner
+
+
+
+================================================================================================================================================================
+
+    🟡 Intermediate / Mid-Level (Professional)
+        Goal: Build production-ready systems
+
+    Compute & App Layer
+        EC2 Auto Scaling
+        Load Balancers (ALB/NLB)
+        Lambda + API Gateway
+        ECS / EKS basics
+
+    Networking
+        VPC deep dive
+        Subnets, Route Tables, NAT Gateway
+        VPC Peering, Endpoints
+        DNS with Route 53
+
+
+    Storage & Databases
+        S3 lifecycle, versioning
+        DynamoDB (indexes, capacity modes)
+        RDS Multi-AZ, Read Replicas
+        ElastiCache
+
+    Security
+        IAM best practices
+        KMS
+        Secrets Manager / Parameter Store
+        WAF, Shield
+
+    DevOps Basics
+        CI/CD (CodePipeline, CodeBuild)
+        CloudWatch logs & metrics
+        Infrastructure as Code (CloudFormation / Terraform)
+
+    📌 Target cert: Solutions Architect – Associate / Developer Associate
+
+
+================================================================================================================================================================
+
+    🔵 Senior (Advanced Architect / Lead)
+        Goal: Design scalable, secure, cost-optimized systems
+
+    Architecture
+        Multi-AZ & Multi-Region designs
+        Event-driven architectures
+        Microservices on AWS
+        Serverless-first architectures
+
+    Advanced Networking
+        Transit Gateway
+        Hybrid cloud (VPN, Direct Connect)
+        PrivateLink
+        Network security design
+
+    Observability
+        CloudWatch advanced metrics
+        X-Ray
+        Centralized logging
+        Alarms & SLOs
+
+    Performance & Scaling
+        DynamoDB advanced patterns
+        Caching strategies
+        Async processing (SQS, SNS, EventBridge)
+        Cost vs performance tradeoffs
+
+
+    Security & Governance
+        Organizations & SCPs
+        Centralized IAM strategy
+        Audit & compliance
+        Incident response
+
+
+    Cost Optimization
+        Cost Explorer
+        Savings Plans / Reserved Instances
+        Right-sizing
+        FinOps practices
+
+    📌 Target cert: Solutions Architect – Professional / DevOps Engineer
+
+
+================================================================================================================================================================
+
+    🔴 Expert (Principal / Cloud Architect)
+        Goal: Own cloud strategy & large-scale systems
+
+    Large-Scale Architecture
+        Multi-account landing zones
+        Global active-active systems
+        Disaster Recovery (RTO/RPO design)
+        High-throughput data systems
+
+    Platform Engineering
+        Internal developer platforms
+        Golden AMIs / images
+        Self-service infrastructure
+        Policy-as-code
+
+    Advanced DevOps & SRE
+        Blue/Green & Canary deployments
+        Chaos engineering
+        Automated remediation
+        Zero-downtime migrations
+
+    Security at Scale
+        Threat modeling
+        Zero Trust architecture
+        Security automation
+        Compliance automation
+
+    Leadership & Strategy
+        Cloud migration strategy
+        Vendor lock-in decisions
+        Cost governance at org level
+        Mentoring teams
+
+    📌 Target cert: AWS Certified Advanced Networking / Specialty certs
+
+
+================================================================================================================================================================
+
+    🧠 Must-Have Skills at Expert Level
+        System design interviews
+        Tradeoff analysis
+        Documentation & RFCs
+        Cross-team architecture reviews
+        Business + cost impact thinking

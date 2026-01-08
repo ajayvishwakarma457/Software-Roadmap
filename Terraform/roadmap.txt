@@ -1,0 +1,120 @@
+
+Terraform Roadmap (Beginner → Senior → Expert)
+
+    Beginner (Foundations)
+
+    Goal: Write and apply basic Terraform safely.
+        What IaC is, why Terraform
+        Terraform CLI (init, plan, apply, destroy)
+        Providers, resources, data sources
+        HCL basics (blocks, arguments, expressions)
+        Variables, outputs
+        State file basics (local state)
+        Simple projects:
+            Create VPC / EC2 / S3
+            Use variables + outputs
+        Version control with Git
+
+
+
+================================================================================================================================================================
+
+
+    Intermediate / Senior (Production-Ready Terraform)
+        Goal: Build reusable, secure, team-ready infrastructure.
+
+        Modules
+            Create, consume, version modules
+            Public vs private modules
+
+        State management
+            Remote state (S3 + DynamoDB / equivalents)
+            State locking & recovery
+
+        Workflows
+            Environments (dev/stage/prod)
+            terraform.workspace
+
+        Advanced HCL
+            count, for_each
+            locals
+            conditionals, functions
+
+        Dependency management
+
+        Secrets handling (Vault / SSM / Key Vault)
+
+        CI/CD integration (GitHub Actions, GitLab CI)
+
+        Linting & formatting
+            terraform fmt
+            terraform validate
+            tflint
+
+        Security basics
+            IAM least privilege
+            No secrets in state
+
+        Cloud focus (AWS / Azure / GCP)
+
+        Real-world projects:
+            Full VPC + EKS/ECS
+            RDS + autoscaling
+            Multi-env setup
+
+
+================================================================================================================================================================
+
+    Advanced / Expert (Scale, Governance, Architecture)
+        Goal: Terraform at enterprise scale.
+
+            Large-scale module architecture
+
+            Monorepo vs multirepo strategies
+
+            Terraform Cloud / Enterprise
+
+            Workspaces vs directory-based envs
+
+            Policy as Code
+                Sentinel / OPA
+            Drift detection & remediation
+
+            Importing existing infrastructure
+
+            State refactoring & migrations
+
+            Performance optimization
+
+            Multi-cloud & hybrid setups
+
+            Disaster recovery strategies
+
+            Cost control & FinOps alignment
+
+            Security hardening
+                Static analysis (Checkov, tfsec)
+                Compliance automation
+
+            Custom providers (advanced)
+
+            Platform engineering use cases
+    
+
+================================================================================================================================================================
+
+    Tooling Stack (Must Know)
+        Terraform CLI
+        Git
+        CI/CD tools
+        Cloud IAM
+        Secrets managers
+        Policy engines
+
+
+================================================================================================================================================================
+
+    Who Uses Terraform in Production
+        Platform Engineers
+        DevOps Engineers
+        Cloud Architects
