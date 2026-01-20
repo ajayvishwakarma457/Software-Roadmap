@@ -19,3 +19,38 @@ Tech-only / niche
   Topcoder – Coding challenges
   Gun.io – Vetted devs
   Arc.dev – Remote contracts
+
+
+Freelance / Project Marketplaces
+  Upwork – Long & short projects, global clients
+  Freelancer – Competitive bidding
+  Fiverr – Productized services
+  PeoplePerHour – EU-focused clients
+  Toptal – High-budget, vetted
+
+Agency Directories (High-Intent Leads)
+  Clutch – Strong inbound leads
+  GoodFirms – SMB to enterprise
+  DesignRush – Branding, tech, marketing
+  Sortlist – Europe heavy
+
+Startup & Tech Gigs
+  AngelList – Startup contracts
+  Wellfound – Product & dev work
+  Y Combinator (Jobs) – Early-stage needs
+
+
+Lead Generation / Outreach
+  LinkedIn – Direct outreach + Services page
+  Indeed – Contract postings
+  Glassdoor – Agency contracts
+
+Niche / Dev-Focused
+  Gun.io – Engineering agencies
+  Arc.dev – Remote contracts
+  Codementor – Short-term gigs
+
+India-Focused (if relevant)
+  Truelancer
+  WorkNHire
+  Uplers
